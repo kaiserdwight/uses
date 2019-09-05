@@ -1,0 +1,19 @@
+{
+	"ajax": {
+		"prefix": "ajax",
+		"body": [
+			"$.ajax({\r",
+			"    url: '$1',\r",
+			"    method: '$2',\r",
+			"    dataType: '$3',\r",
+			"    success: (data) => {\r",
+			"        console.log(data);\r",
+			"    },\r",
+			"    error: (err) => {\r",
+			"        console.log(err);\r",
+			"    }\r",
+			"});"
+		],
+		"description": "ajax"
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"Vue": {
+		"prefix": "vue__",
+		"body": [
+			"<template>\r",
+			"  $1\r",
+			"</template>\r",
+			"\r",
+			"<script>\r",
+			"export default {\r",
+			"  data() {\r",
+			"    return {$2}\r",
+			"  }\r",
+			"};\r",
+			"</script>\r",
+			"\r",
+			"<style>\r",
+			"\r",
+			"</style>"
+		],
+		"description": "vue template"
+	}
+}

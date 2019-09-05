@@ -1,0 +1,20 @@
+{
+	"react": {
+		"scope": "javascript,typescript, blade",
+		"prefix": "react_",
+		"body": [
+			"import React from 'react';\r",
+			"\r",
+			"class $1 extends React.Component {\r",
+			"    render() {\r",
+			"        return (\r",
+			"            $2\r",
+			"        )\r",
+			"    }\r",
+			"}\r",
+			"\r",
+			"export default $1;"
+		],
+		"description": "react"
+	}
+}

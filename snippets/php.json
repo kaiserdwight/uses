@@ -1,0 +1,44 @@
+{
+	"Public Method": {
+		"prefix": "met",
+		"body": [
+			"public function $1(){",
+			"    $2",
+			"}"
+		],
+		"description": "New Public Method"
+	},
+	"Protected Method": {
+		"prefix": "pmet",
+		"body": [
+			"protected function $1(){",
+			"\t$2",
+			"}"
+		],
+		"description": "New Protected method"
+	},
+	"PHP Constructor": {
+		"prefix": "__c",
+		"body": [
+			"public function __construct()\r",
+			"{\r",
+			"    \\$this->middleware('$1')->except('$2');\r",
+			"}"
+		],
+		"description": "constructor"
+	},
+	"boot method": {
+		"prefix": "boot_",
+		"body": [
+			"public static function boot()",
+			"{",
+			"    parent::boot();",
+			"",
+			"    static::$1(function (\\$model) {",
+			"        $2",
+			"    });",
+			"}"
+		],
+		"description": "laravel boot method"
+	}
+}
