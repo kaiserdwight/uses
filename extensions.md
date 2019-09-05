@@ -1,4 +1,4 @@
-VSCode.
+extensions that I use.
 
 * [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 * [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -22,10 +22,3 @@ VSCode.
 * [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 * [VS Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare)
 * [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
-
-
-Sublime Text 3
-* [Laravel Blade Highlighter](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
-* [Package Control](https://packagecontrol.io/installation)
-* [Theme - Dark Material](https://packagecontrol.io/packages/Theme%20-%20Dark%20Material)
-* [Vue Syntax Highlight](https://github.com/vuejs/vue-syntax-highlight)
