@@ -1,9 +1,10 @@
 {
-    "window.zoomLevel": -2,
+    "window.zoomLevel": 0,
     "editor.fontFamily": "Victor Mono Medium",
-    "editor.fontSize": 18,
-    "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.5,
+    // "editor.fontSize": 12,
+    // "editor.fontWeight": "bold",
+    // "editor.lineHeight": 22,
+    // "editor.letterSpacing": 0.8,
     "editor.fontLigatures": true,
     "editor.tabCompletion": "on",
     "editor.folding": false,
@@ -21,12 +22,12 @@
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
-    "workbench.colorTheme": "SynthWave '84",
+    "workbench.colorTheme": "Cobalt2",
     "workbench.iconTheme": "vs-seti",
     "workbench.editor.tabSizing": "shrink",
     "search.useIgnoreFiles": false,
     "auto-close-tag.fullMode": true,
-    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.11-Win32-VC15-x64\\php.exe",
+    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64\\php.exe",
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
     "terminal.integrated.rendererType": "dom",
     "gitlens.hovers.currentLine.over": "line",
@@ -38,5 +39,29 @@
     ],
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.enabled": false,
-    "editor.cursorSurroundingLines": 10,
+    "vscode_custom_css.imports": [
+        // "file:///C:/Users/Carbon/.vscode/extensions/robbowen.synthwave-vscode-0.0.7/synthwave84.css"
+        "file:///C://Users//Carbon//.vscode//extensions//wesbos.theme-cobalt2-2.1.6/cobalt2-custom-hacks.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": true,
+    //cobalt2 settings
+    "editor.fontSize": 17,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400",
+    "editor.cursorWidth": 5,
+    // turn it off for JS and JSX, we will do this via eslint
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    // tell the ESLint plugin to run on save
+    "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
 }
