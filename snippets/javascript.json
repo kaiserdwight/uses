@@ -15,5 +15,12 @@
 			"});"
 		],
 		"description": "ajax"
+	},
+	"console log": {
+		"prefix": "cl",
+		"body": [
+			"console.log($1)"
+		],
+		"description": "console log shortcut"
 	}
 }

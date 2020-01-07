@@ -1,0 +1,23 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders.
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Lorem Ipsum": {
+		"prefix": "lipsum",
+		"body": [
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat magna non metus gravida, sed semper enim gravida. Praesent malesuada quam at elit faucibus, id scelerisque nisl commodo. Donec fermentum lacinia ligula id porta. Aenean vehicula, neque vel ultrices consequat, magna leo aliquam sapien, eu euismod lectus quam vitae elit. Nam laoreet quis libero a finibus. Mauris eleifend, ipsum sed scelerisque tempor, magna lorem ultrices turpis, in efficitur nisl neque ac odio. Duis quis tortor nisi. Fusce bibendum lectus at tincidunt euismod. Nunc sodales mauris quis tincidunt eleifend. Praesent in molestie risus. Aliquam erat volutpat. Suspendisse leo metus, maximus id velit a, rutrum vehicula magna. Sed imperdiet neque ut elit sagittis, pellentesque tristique magna congue. Cras dignissim iaculis nulla id mattis. Curabitur in luctus enim."
+		],
+		"description": "Lorem Ipsum 1 paragraph, 125 words"
+	},
+	"Lorem Picsum": {
+		"prefix": "picsum",
+		"body": [
+			"https://picsum.photos/"
+		],
+		"description": "Lorem Picsum"
+	}
+}
