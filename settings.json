@@ -1,10 +1,10 @@
 {
     "window.zoomLevel": 0,
     "editor.fontFamily": "Victor Mono Medium",
-    // "editor.fontSize": 12,
-    // "editor.fontWeight": "bold",
-    // "editor.lineHeight": 22,
-    // "editor.letterSpacing": 0.8,
+    "editor.fontSize": 12,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.8,
     "editor.fontLigatures": true,
     "editor.tabCompletion": "on",
     "editor.folding": false,
@@ -46,11 +46,6 @@
     "vscode_custom_css.policy": true,
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": true,
-    //cobalt2 settings
-    "editor.fontSize": 17,
-    "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.5,
-    "editor.fontWeight": "400",
     "editor.cursorWidth": 5,
     // turn it off for JS and JSX, we will do this via eslint
     "[javascript]": {
@@ -59,8 +54,6 @@
     "[javascriptreact]": {
         "editor.formatOnSave": false
     },
-    // tell the ESLint plugin to run on save
-    "eslint.autoFixOnSave": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
