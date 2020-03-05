@@ -6,7 +6,6 @@
     "editor.lineHeight": 25,
     "editor.letterSpacing": 0.8,
     "editor.fontLigatures": true,
-    "editor.tabCompletion": "on",
     "editor.folding": false,
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "solid",
@@ -44,12 +43,12 @@
         "file:///C://Users//Carbon//.vscode//extensions//wesbos.theme-cobalt2-2.1.6/cobalt2-custom-hacks.css"
     ],
     "vscode_custom_css.policy": true,
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "editor.minimap.enabled": true,
-    "editor.cursorWidth": 5,
+    "editor.cursorWidth": 2,
     // turn it off for JS and JSX, we will do this via eslint
     "[javascript]": {
-        "editor.formatOnSave": false
+        "editor.formatOnSave": true
     },
     "[javascriptreact]": {
         "editor.formatOnSave": false
@@ -57,4 +56,5 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+    "editor.tabCompletion": "on"
 }

@@ -44,7 +44,14 @@
 	"ajax response": {
 		"prefix": "response::request",
 		"body": [
-			"return response(request($1), 422);"
+			"return response(request($1), 422);",
+		],
+		"description": "laravel ajax response"
+	},
+	"debugbar": {
+		"prefix": "debugbarrequest",
+		"body": [
+			"\\Debugbar::info(request()->all());",
 		],
 		"description": "laravel ajax response"
 	}
