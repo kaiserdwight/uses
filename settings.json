@@ -39,8 +39,8 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.hovers.enabled": false,
     "vscode_custom_css.imports": [
-        // "file:///C:/Users/Carbon/.vscode/extensions/robbowen.synthwave-vscode-0.0.7/synthwave84.css"
-        "file:///C://Users//Carbon//.vscode//extensions//wesbos.theme-cobalt2-2.1.6/cobalt2-custom-hacks.css"
+        // "file:///C:/Users/IU/.vscode/extensions/robbowen.synthwave-vscode-0.0.7/synthwave84.css"
+        "file:///C://Users//IU//.vscode//extensions//wesbos.theme-cobalt2-2.1.6/cobalt2-custom-hacks.css"
     ],
     "vscode_custom_css.policy": true,
     "breadcrumbs.enabled": true,
