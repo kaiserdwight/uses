@@ -1,1 +1,20 @@
-# configs
+# Softwares I use
+
+- [VSCode](https://code.visualstudio.com/)
+    - [Extensions](https://github.com/kdwight/uses/blob/master/extensions.md)
+- [Git](https://git-scm.com/downloads)
+- [Github Desktop](https://desktop.github.com/)
+- [Notepad++](https://notepad-plus-plus.org/downloads/)
+- [Hyperterm](https://hyper.is/#installation)
+    - [Material Theme](https://hyper.is/store/hyper-material-theme)
+    - [Hyper Opacity](https://hyper.is/store/hyper-opacity)
+- [Laragon 4](https://laragon.org/download/)
+- [Tableplus](https://tableplus.com/)
+- [Chrome Dev](https://www.google.com/intl/en_ph/chrome/dev/)
+    - [Fake Filler](https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=en)
+    - [Json Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en)
+    - [VueJS Devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
+- [Virtualbox 6.1](https://www.virtualbox.org/wiki/Downloads)
+- [Postman](https://www.postman.com/downloads/)
+- [Composer](https://getcomposer.org/download/)
+- [Node.js LTS](https://nodejs.org/en/)
