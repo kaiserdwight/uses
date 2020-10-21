@@ -1,0 +1,58 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontFamily": "Victor Mono Medium",
+    "editor.fontSize": 12,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.8,
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": true,
+    "editor.snippetSuggestions": "inline",
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDelete": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.editor.tabSizing": "shrink",
+    "search.useIgnoreFiles": false,
+    "auto-close-tag.fullMode": true,
+    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64\\php.exe",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.rendererType": "dom",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.recentChanges.highlight.locations": [
+        "gutter",
+        "line",
+        "overview"
+    ],
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "vscode_custom_css.imports": [
+        // "file:///C:/Users/IU/.vscode/extensions/robbowen.synthwave-vscode-0.0.7/synthwave84.css"
+        "file:///C://Users//IU//.vscode//extensions//wesbos.theme-cobalt2-2.1.6/cobalt2-custom-hacks.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": true,
+    "editor.cursorWidth": 2,
+    // turn it off for JS and JSX, we will do this via eslint
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.tabCompletion": "on"
+}
