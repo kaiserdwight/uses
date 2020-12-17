@@ -61,5 +61,12 @@
             "\\Debugbar::info(request()->all());",
         ],
         "description": "laravel ajax response"
+    },
+    "db listen": {
+        "prefix": "db:listen",
+        "body": [
+            "\\DB::listen(function (\\$query) { var_dump(\\$query->sql); });",
+        ],
+        "description": "laravel ajax response"
     }
 }
