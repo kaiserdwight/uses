@@ -1,15 +1,15 @@
-Vue 2
-* [tinymce-vue]()
-* [vue-flickity]()
-* [vue-meta]()
+Vue
+* [tinymce-vue v3.2.0](https://github.com/tinymce/tinymce-vue)
+* [vue-flickity](https://github.com/drewjbartlett/vue-flickity)
+* [vue-meta](https://github.com/nuxt/vue-meta)
 
 Laravel
-* [alexusmai/laravel-file-manager]()
-* [intervention/image]()
-* [maatwebsite/excel]()
-* [spatie/laravel-activitylog]()
-* [barryvdh/laravel-debugbar]()
-* [barryvdh/laravel-ide-helper]()
+* [alexusmai/laravel-file-manager](https://github.com/alexusmai/laravel-file-manager)
+* [intervention/image](http://image.intervention.io/)
+* [maatwebsite/excel](https://github.com/maatwebsite/Laravel-Excel)
+* [spatie/laravel-activitylog](https://spatie.be/docs/laravel-activitylog/v3/installation-and-setup)
+* [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
+* [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper)
 
 JS plugins that I used
 
