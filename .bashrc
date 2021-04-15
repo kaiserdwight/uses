@@ -20,3 +20,4 @@ alias wip="git add . && git commit -m 'wip' && git push"
 alias nah="git reset --hard && git clean -df"
 
 alias vue='winpty vue.cmd'
+alias botmanclr="php artisan botman:cache:clear && php artisan cache:clear  && php artisan config:clear"

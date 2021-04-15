@@ -25,4 +25,5 @@ module.exports = {
     /** @hyper-opacity */
     opacity: 0.95,
     // ============ plugins configurations here ============
-  };
+  }
+}
