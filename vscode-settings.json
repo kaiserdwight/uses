@@ -1,8 +1,7 @@
 {
     // terminal
     "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64\\php.exe",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "search.useIgnoreFiles": false,
     // workbench
     "window.zoomLevel": 0,
