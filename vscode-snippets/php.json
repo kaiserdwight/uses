@@ -55,10 +55,10 @@
         ],
         "description": "laravel response json"
     },
-    "debugbar": {
-        "prefix": "debugbarrequest",
+    "debugbar info": {
+        "prefix": "dbarInfo",
         "body": [
-            "\\Debugbar::info(request()->all());",
+            "\\Debugbar::info($1);",
         ],
         "description": "laravel ajax response"
     },
