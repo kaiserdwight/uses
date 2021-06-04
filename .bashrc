@@ -15,6 +15,10 @@ function reload() {
 	echo "\"~/.bashrc\" reloaded";
 }
 
+function randomEp() {
+	echo $((1 + $RANDOM % $1)) '>' $((1 + $RANDOM % $2));
+}
+
 #laravel aliases
 alias phpunit='vendor/bin/phpunit'
 alias pf="phpunit --filter "
