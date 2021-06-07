@@ -16,7 +16,10 @@ function reload() {
 }
 
 function randomEp() {
-	echo $((1 + $RANDOM % $1)) '>' $((1 + $RANDOM % $2));
+	local SEASON=$1;
+	local EPISODE=$2;
+
+	echo 'Se'$((1 + $RANDOM % SEASON))'Ep'$((1 + $RANDOM % EPISODE));
 }
 
 #laravel aliases

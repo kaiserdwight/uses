@@ -42,9 +42,9 @@
         "description": "laravel boot method"
     },
     "ajax response": {
-        "prefix": "res:request",
+        "prefix": "res:return",
         "body": [
-            "return response(request($1), 422);",
+            "return response($1, ${2:200});",
         ],
         "description": "laravel ajax response"
     },
