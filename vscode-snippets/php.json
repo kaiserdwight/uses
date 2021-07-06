@@ -44,29 +44,31 @@
     "ajax response": {
         "prefix": "res:return",
         "body": [
-            "return response($1, ${2:200});",
+            "return response($1, ${2:200});"
         ],
         "description": "laravel ajax response"
     },
     "json response": {
         "prefix": "res:json",
         "body": [
-            "return response()->json($1);",
+            "return response()->json($1);"
         ],
         "description": "laravel response json"
     },
     "debugbar info": {
         "prefix": "dbarInfo",
         "body": [
-            "\\Debugbar::info($1);",
+            "\\Debugbar::info($1);"
         ],
         "description": "laravel ajax response"
     },
     "db listen": {
         "prefix": "db:listen",
         "body": [
-            "\\DB::listen(function (\\$query) { var_dump(\\$query->sql); });",
+            "\\Illuminate\\Support\\Facades\\DB::listen(function (\\$query) {",
+            "   var_dump(\\$query->sql); ",
+            "});"
         ],
-        "description": "laravel ajax response"
+        "description": "laravel db listen"
     }
 }
