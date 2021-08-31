@@ -6,13 +6,17 @@ function art() {
     php artisan "$@"
 }
 
+function artroku() {
+    heroku run php artisan "$@"
+}
+
 function laragon() {
 	cd /c/laragon/www/$*
 }
 
 function reload() {
 	. ~/.bashrc;
-	echo "\"~/.bashrc\" reloaded";
+	echo "\". ~/.bashrc\" reloaded";
 }
 
 function randomEp() {
@@ -28,7 +32,8 @@ alias pf="phpunit --filter "
 alias fresh="php artisan migrate:fresh --seed"
 alias artcc="php artisan clear-compiled"
 alias cdo="composer dump-autoload -o"
-alias laradeploy="composer install --optimize-autoloader --no-dev && npm run prod"
+alias lvoptimize="composer install --optimize-autoloader --no-dev"
+alias sail="vendor/bin/sail"
 
 #npm aliases
 alias nrd="npm run dev"
@@ -39,6 +44,8 @@ alias nrw="npm run watch"
 alias gac="git add . && git commit -a -m "
 alias wip="git add . && git commit -m 'wip' && git push"
 alias nah="git reset --hard && git clean -df"
+alias pusherok="git push heroku heroku:main"
+alias wiperok="git add . && git commit -m 'wip heroku' && git push heroku heroku:main"
 
 #other aliases
 alias vue='winpty vue.cmd'
