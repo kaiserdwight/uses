@@ -1,9 +1,9 @@
 {
-    // terminal
-    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.2.19-Win32-VC15-x64\\php.exe",
+    /* terminal */
+    "php.validate.executablePath": "C:\\laragon\\bin\\php\\php-7.4.19-Win32-vc15-x64\\php.exe",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "search.useIgnoreFiles": false,
-    // workbench
+    /* workbench */
     "window.zoomLevel": 0,
     "workbench.colorTheme": "Cobalt2",
     "workbench.iconTheme": "vs-seti",
@@ -11,29 +11,42 @@
     "explorer.openEditors.visible": 0,
     "breadcrumbs.enabled": true,
     "editor.minimap.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
     "editor.tabCompletion": "on",
     "editor.snippetSuggestions": "inline",
     "emmet.triggerExpansionOnTab": true,
-    //typography
+    "search.collapseResults": "auto",
+    /* typography */
     "editor.fontLigatures": true,
     "editor.fontFamily": "Victor Mono Medium",
-    "editor.fontSize": 12,
     "editor.fontWeight": "400",
-    "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.8,
-    //cursor
+    "editor.fontSize": 12,
+    "editor.lineHeight": 28,
+    "editor.letterSpacing": 0.9,
+    /* cursor */
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "solid",
     "editor.cursorWidth": 2,
-    // editor
+    /* editor */
     "editor.formatOnSave": true,
     "editor.renderWhitespace": "all",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "explorer.confirmDelete": false,
-    // extensions
+    // "files.exclude": {
+    //     "**/vendor": true,
+    //     "**/node_modules": true,
+    //     "**/storage/framework/views": true,
+    //     "**/storage/debugbar": true,
+    // },
+    /* extensions */
     "auto-close-tag.fullMode": true,
+    "blade.format.enable": false,
+    "[blade]": {
+        "editor.autoClosingBrackets": "always"
+    },
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.statusBar.enabled": false,
     "gitlens.codeLens.enabled": false,
@@ -44,7 +57,8 @@
         "overview"
     ],
     "vetur.format.options.tabSize": 2,
-    "vetur.format.defaultFormatter.html": "prettyhtml",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
     // reactjs settings
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"

@@ -1,9 +1,0 @@
-{
-	"debugbar info": {
-		"prefix": "dbarInfo",
-		"body": [
-			"{{ \\Debugbar::info($1) }}",
-		],
-		"description": "debugbar info"
-	},
-}

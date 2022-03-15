@@ -39,7 +39,7 @@
             "    });",
             "}"
         ],
-        "description": "laravel boot method"
+        "description": "laravel model events \n created/ing | updated/ing | deleted/ing | restored/ing | saved/ing"
     },
     "ajax response": {
         "prefix": "res:return",
@@ -66,9 +66,16 @@
         "prefix": "db:listen",
         "body": [
             "\\Illuminate\\Support\\Facades\\DB::listen(function (\\$query) {",
-            "   var_dump(\\$query->sql); ",
+            "   var_dump($query->sql, $query->bindings); ",
             "});"
         ],
         "description": "laravel db listen"
+    },
+    "echo <pre>": {
+        "prefix": "echo:pre",
+        "body": [
+            "echo \"<pre>{\\$$1}</pre>\";",
+        ],
+        "description": " "
     }
 }
