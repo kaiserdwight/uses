@@ -3,8 +3,8 @@
 ## Softwares
 - [VSCode](https://code.visualstudio.com/)
     - [extensions](https://github.com/kdwight/uses/blob/master/vscode/extensions.md)
-    - [keybindings](https://github.com/kdwight/uses/blob/master/vscode/keybindings.md)
-    - [settings](https://github.com/kdwight/uses/blob/master/vscode/settings.md)
+    - [keybindings](https://github.com/kdwight/uses/blob/master/vscode/keybindings.json)
+    - [settings](https://github.com/kdwight/uses/blob/master/vscode/settings.json)
 - [Git](https://git-scm.com/downloads)
 - [GitKraken](https://www.gitkraken.com/)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
