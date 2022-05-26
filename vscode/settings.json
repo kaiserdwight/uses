@@ -10,6 +10,8 @@
     "workbench.editor.tabSizing": "shrink",
     "explorer.openEditors.visible": 0,
     "breadcrumbs.enabled": true,
+    "breadcrumbs.showClasses": false,
+    "breadcrumbs.showModules": false,
     "editor.minimap.enabled": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
@@ -42,10 +44,12 @@
     //     "**/storage/debugbar": true,
     // },
     /* extensions */
-    "auto-close-tag.fullMode": true,
-    "blade.format.enable": false,
     "[blade]": {
         "editor.autoClosingBrackets": "always"
+    },
+    "[vue]": {
+        "editor.formatOnType": false,
+        // "editor.formatOnSave": false
     },
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.statusBar.enabled": false,

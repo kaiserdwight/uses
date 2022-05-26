@@ -5,6 +5,7 @@
     - [extensions](https://github.com/kdwight/uses/blob/master/vscode/extensions.md)
     - [keybindings](https://github.com/kdwight/uses/blob/master/vscode/keybindings.json)
     - [settings](https://github.com/kdwight/uses/blob/master/vscode/settings.json)
+    - [Font Family](https://github.com/rubjo/victor-mono)
 - [Git](https://git-scm.com/downloads)
 - [GitKraken](https://www.gitkraken.com/)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)

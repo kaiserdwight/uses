@@ -6,10 +6,22 @@
     },
     {
         "key": "ctrl+shift+a",
-        "command": "editor.emmet.action.balanceOut"
+        "command": "editor.emmet.action.balanceOut",
+        "description": "HTML outward block select"
     },
     {
         "key": "ctrl+shift+alt+a",
-        "command": "editor.emmet.action.balanceIn"
+        "command": "editor.emmet.action.balanceIn",
+        "description": "HTML inward block select"
+    },
+    {
+        "key": "ctrl+shift+alt+m",
+        "command": "editor.action.toggleMinimap",
+        "description": "Toggle editor minimap"
+    },
+    {
+        "key": "ctrl+shift+alt+b",
+        "command": "breadcrumbs.toggle",
+        "description": "Toggle editor breadcrumbs"
     }
 ]

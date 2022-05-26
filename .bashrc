@@ -13,6 +13,10 @@ alias nrd="npm run dev"
 alias nrp="npm run prod"
 alias nrw="npm run watch"
 
+#vite aliases
+alias vb="npm run build"
+alias vp="npm run preview"
+
 #git aliases
 alias gac="git add . && git commit -a -m "
 alias wip="git add . && git commit -m 'wip' && git push"
@@ -75,6 +79,10 @@ ${green}npm aliases
   ${cyan}nrd                ${reset}npm run dev
   ${cyan}nrp                ${reset}npm run prod
   ${cyan}nrw                ${reset}npm run watch
+
+${green}vite aliases
+  ${cyan}vb                ${reset}npm run build
+  ${cyan}vp                ${reset}npm run preview
 
 ${green}git aliases
   ${cyan}gac                ${reset}git add . && git commit -a -m
