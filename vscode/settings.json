@@ -37,6 +37,15 @@
     "files.trimTrailingWhitespace": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "explorer.confirmDelete": false,
+    "editor.tabSize": 2,
+    "editor.scrollbar.verticalScrollbarSize": 20,
+    "editor.glyphMargin": false,
+    "workbench.colorCustomizations": {
+        "scrollbarSlider.activeBackground": "#e99644",
+        "scrollbarSlider.background": "#e99644cc",
+        "scrollbarSlider.hoverBackground": "#e997448e",
+        // "editor.background": "#35363a",
+   },
     // "files.exclude": {
     //     "**/vendor": true,
     //     "**/node_modules": true,
@@ -44,22 +53,18 @@
     //     "**/storage/debugbar": true,
     // },
     /* extensions */
+    "gitlens.hovers.currentLine.over": "line",
+     "gitlens.codeLens.enabled": false,
+     "gitlens.hovers.enabled": false,
+    // laravel settings
     "[blade]": {
         "editor.autoClosingBrackets": "always"
-    },
+   },
+    // vuejs settings
     "[vue]": {
         "editor.formatOnType": false,
         // "editor.formatOnSave": false
-    },
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.statusBar.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "gitlens.hovers.enabled": false,
-    "gitlens.recentChanges.highlight.locations": [
-        "gutter",
-        "line",
-        "overview"
-    ],
+   },
     "vetur.format.options.tabSize": 2,
     "vetur.format.defaultFormatter.html": "js-beautify-html",
     "vetur.format.defaultFormatter.js": "vscode-typescript",
@@ -75,6 +80,10 @@
         "editor.formatOnSave": true
     },
     "[javascriptreact]": {
-        "editor.formatOnSave": false
-    }
+        "editor.formatOnSave": true
+    },
+    "[scss]": {
+        // "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+        // "editor.defaultFormatter": "vscode.css-language-features"
+   },
 }

@@ -17,6 +17,10 @@ alias nrw="npm run watch"
 alias vb="npm run build"
 alias vp="npm run preview"
 
+#wordpress aliases
+alias wp="cd /c/laragon/www-wordpress/"
+alias wpt="cd web/app/themes/"
+
 #git aliases
 alias gac="git add . && git commit -a -m "
 alias wip="git add . && git commit -m 'wip' && git push"
@@ -42,6 +46,22 @@ function artroku() {
 
 function laragon() {
 	cd /c/laragon/www/$*
+}
+
+function npm_reset() {
+    red=`tput setaf 1`
+    yellow=`tput setaf 3`
+    reset=`tput sgr0`
+
+    rm -rf node_modules
+    echo "${yellow}node_modules ${red}removed!${reset}"
+    rm package-lock.json
+    echo "${yellow}package-lock.json ${red}removed!${reset}"
+    test -f yarn.lock && rm yarn.lock && echo "${yellow}yarn.lock ${red}removed!${reset}"
+    npm cache clear --force
+    echo "${yellow}npm cache ${red}cleared!${reset}"
+
+    printf "\nyou can now ${yellow}npm install && npm run dev${reset}"
 }
 
 function reload() {
@@ -84,6 +104,10 @@ ${green}vite aliases
   ${cyan}vb                ${reset}npm run build
   ${cyan}vp                ${reset}npm run preview
 
+${green}wordpress aliases
+  ${cyan}wp                ${reset}cd /c/laragon/www-wordpress/
+  ${cyan}wpt               ${reset}cd web/app/themes/
+
 ${green}git aliases
   ${cyan}gac                ${reset}git add . && git commit -a -m
   ${cyan}wip                ${reset}git add . && git commit -m 'wip' && git push
@@ -101,5 +125,6 @@ ${green}functions
   ${cyan}artroku()          ${reset}heroku run php artisan "\$@"
   ${cyan}laragon()          ${reset}cd /c/laragon/www/\$*
   ${cyan}reload()           ${reset}. ~/.bashrc
+  ${cyan}npm_reset()        ${reset}resets npm installation on the project
 "
 }
