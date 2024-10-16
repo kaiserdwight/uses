@@ -3,10 +3,12 @@
         "titleBar.activeBackground": "#5CA4A9",
         "titleBar.inactiveBackground": "#5CA4A9CC"
     },
-    "editor.insertSpaces": true,
-    "editor.tabSize": 4,
-    // "files.exclude": {
-    //     "**/node_modules": true,
-    //     "**/vendor": true
-    // },
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/vendor": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/vendor": true
+    }
 }
