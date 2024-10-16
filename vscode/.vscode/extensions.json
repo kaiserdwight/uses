@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "aaron-bond.better-comments",
+    "kisstkondoros.vscode-codemetrics",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "xabikos.javascriptsnippets",
+    "eamodio.gitlens",
+    "orta.vscode-jest",
+    "dsznajder.es7-react-js-snippets",
+    "deque-systems.vscode-axe-linter",
+    "apollographql.vscode-apollo"
+  ]
+}
